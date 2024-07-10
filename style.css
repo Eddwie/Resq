@@ -24,6 +24,102 @@ header{
     align-items: center;
     z-index: 99;
 }
+.container1{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 60px;
+}
+.container1 .content1{
+    text-align: center;
+}
+.container1 .content1 h3{
+    font-size: 30px;
+    color: #fff;
+}
+.container1 .content1 h3 span{
+    background: #162938;
+    color: #fff;
+    border-radius: 5px;
+    padding: 0 15px;
+}
+.container1 .content1 h1{
+    font-size: 50px;
+    color: #fff;
+}
+.container1 .content1 h1 span{
+    color: #162938;
+}
+.container1 .content1 p{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.container2{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 60px;
+}
+.container2 .content2{
+    text-align: center;
+}
+.container2 .content2 h3{
+    font-size: 30px;
+    color: #fff;
+}
+.container2 .content2 h3 span{
+    background: #162938;
+    color: #fff;
+    border-radius: 5px;
+    padding: 0 15px;
+}
+.container2 .content2 h1{
+    font-size: 50px;
+    color: #fff;
+}
+.container2 .content2 h1 span{
+    color: #162938;
+}
+.container2 .content2 p{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.container3{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-bottom: 60px;
+}
+.container3 .content3{
+    text-align: center;
+}
+.container3 .content3 h3{
+    font-size: 30px;
+    color: #fff;
+}
+.container3 .content3 h3 span{
+    background: #162938;
+    color: #fff;
+    border-radius: 5px;
+    padding: 0 15px;
+}
+.container3 .content3 h1{
+    font-size: 50px;
+    color: #fff;
+}
+.container3 .content3 h1 span{
+    color: #162938;
+}
+.container3 .content3 p{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
 .logo{
     font-size: 2em;
     color: #fff;
@@ -73,6 +169,25 @@ header{
     color: #162938;
 
 }
+.navigation .btnLogout-popup{
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 40px;
+    transition: .5s;
+}
+.navigation .btnLogout-popup:hover{
+    background: #fff;
+    color: #162938;
+
+}
 .wrapper{
     position: relative;
     width: 400px;
@@ -88,6 +203,16 @@ header{
     overflow: hidden;
     transform: scale(0);
     transition: transform .5s ease, height .2s ease;
+}
+.form-box.login select{
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 1px;
+    margin: 8px 0;
+    background: #162a38;
+    border-radius: 6px;
+    color: #fff;
+    font-size: .8em;
 }
 .wrapper.active-popup{
     transform: scale(1);
